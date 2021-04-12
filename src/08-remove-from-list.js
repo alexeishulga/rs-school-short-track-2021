@@ -17,7 +17,7 @@
  * }
  */
 
- function removeKFromList(l, k) {
+function removeKFromList(l, k) {
   let list = l;
   if (l.next === null) {
     return null;

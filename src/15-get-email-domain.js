@@ -8,9 +8,9 @@
  * For the input 'prettyandsimple@example.com', the output should be 'example.com'
  *
  */
- function getEmailDomain(email) {
+function getEmailDomain(email) {
   let res = '';
-  for (let i = email.length-1; i>0; i -= 1) {
+  for (let i = email.length - 1; i > 0; i -= 1) {
     if (email[i] === '@') {
       break;
     } else {
